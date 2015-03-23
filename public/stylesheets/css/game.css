@@ -1,0 +1,63 @@
+/*body {
+  background: url("/images/trianglify-background.svg");
+  background-size: cover;
+}*/
+#question-text {
+  font-size: 130%;
+  font-style: oblique;
+  font-weight: 400; }
+
+#question-panel {
+  min-height: 60px; }
+
+.timer-wrap {
+  margin: 0 7px; }
+
+#game-wrap {
+  position: relative;
+  min-height: 200px; }
+
+#championChoiceBox {
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 0.5; }
+  #championChoiceBox .select-champion {
+    width: 70px;
+    margin: 1px;
+    padding: 1px;
+    display: inline-block;
+    border: 2px dashed transparent; }
+    #championChoiceBox .select-champion:hover {
+      border: 2px dashed #008000; }
+  #championChoiceBox img {
+    height: 100%;
+    width: 100%; }
+
+#timer-bar {
+  height: 10px;
+  background-color: #008000;
+  transition: height .3s; }
+
+.gameOver {
+  width: 100%;
+  height: 100%; }
+  .gameOver button {
+    margin-right: 20px; }
+  .gameOver .new-game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.infoboard-wrap, #question-panel {
+  text-align: center; }
+
+.infoboard-wrap {
+  font-weight: 500; }
+
+.container {
+  width: 80%; }
+
+@media only screen and (min-width: 993px) {
+  #header-row {
+    height: 100px; } }
